@@ -1,0 +1,135 @@
+
+body{
+    margin: 0;}
+
+.main {
+
+        width : 100%;
+       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: fixed;
+        background-color: rgb(231, 136, 81);
+        color:rgb(102, 19, 5);
+        font-size: 25px;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+
+
+
+    }
+h1 a:hover{
+    background-color: rgb(238, 102, 23);
+
+
+}    
+.logo{
+        margin-left: 40px;
+        margin-top: 18px;
+        float:left;
+}
+
+.parallax{
+        background-image: url("img/kv1.jpg");
+        min-height: 600px;
+        background-attachment: fixed;
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.navig{
+
+    overflow: hidden;
+    background-color:rgb(58, 120, 161);
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 3px;
+}
+
+li{
+    float : left;
+}
+
+
+
+
+.navig input[type=text]{
+
+    float: right;
+    padding: 3px;
+    margin: 10px;
+
+}
+
+.intro{
+    background-color: rgb(231, 136, 81);
+    color:rgb(102, 19, 5);
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 a{
+    text-decoration: none;
+    color: rgb(102, 19, 5);
+}
+li a {
+    
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: rgb(85, 7, 59);
+
+}
+
+li a:hover{
+background-color: rgb(75, 224, 100);
+}
+section{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: left;
+    background-color: aquamarine;
+
+
+
+}
+
+h2 {
+    text-align: center;
+    color: rgb(10, 41, 88);
+    line-height: 100px;
+    margin: 0;
+  }
+
+
+article{
+    flex: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+    color: rgb(10, 41, 88);
+    font-size: 15px;
+
+}
+
+.footer{
+
+    overflow: hidden;
+    background-color:rgb(85, 127, 153);
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 3px;
+    height:20% ;
+    text-align: center;
+}
+
+
+@media all and (max-width: 500px) {
+    .flexing {
+      /* On small screens, we are no longer using row direction but column */
+      flex-direction: column;
+    }
+  }
