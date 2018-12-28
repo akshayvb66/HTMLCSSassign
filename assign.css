@@ -5,7 +5,8 @@ body{
 
 h1 a{
         text-decoration: none;
-        color: rgb(102, 19, 5);
+        color: antiquewhite;    
+        text-align: center;
     }    
 
     h1 a:hover{
@@ -19,11 +20,11 @@ h1 a{
         width : 100%;
        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         position: fixed;
-        background-color: rgb(231, 136, 81);
-        color:rgb(102, 19, 5);
+        background-color: rgb(3, 3, 190);
+        color: antiquewhite;
         text-decoration: none;
         text-align: center;
-        padding-top: 0px;
+        padding-top: 20px;
         padding-bottom: 0px;
 
 
@@ -33,11 +34,14 @@ h1 a{
 .logo{
         margin-left: 40px;
         margin-top: 18px;
+        height: 100px;
+        margin-bottom: 18px;
+        width: 100px;
         float:left;
 }
 
 .parallax{
-        background-image: url("img/kv1.jpg");
+        background-image: url("img/kv3.jpg");
         min-height: 600px;
         background-attachment: fixed;
         background-position:center;
@@ -48,7 +52,7 @@ h1 a{
 ul{
 
     overflow: hidden;
-    background-color:rgb(58, 120, 161);
+    background-color: rgb(231, 124, 53);
     list-style-type: none;
     margin: 0;
     padding: 3px;
@@ -76,8 +80,8 @@ background-color: rgb(75, 224, 100);
 
 
 .intro{
-    background-color: rgb(231, 136, 81);
-    color:rgb(102, 19, 5);
+    background-color: rgb(3, 3, 190);
+    color:rgb(44, 219, 132);
     font-size:20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -130,7 +134,7 @@ article{
 ul{
 
     overflow: hidden;
-    background-color:rgb(58, 120, 161);
+    background-color:rgb(240, 145, 56);
     list-style-type: none;
     margin: 0px;
     padding: 0px;
@@ -144,10 +148,7 @@ li {width: 100%;
     article{
     width: 100;
 
-    }
-
-
-      
+    }    
 .logo{
     width: 40px;
 height: 50px;    float:left;
